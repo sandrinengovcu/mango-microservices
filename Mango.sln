@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{96429D42-26B3-4C20-A13C-354D3FDA0DD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{C2B0B4FE-6E79-4125-84FC-EFF43B0F0FF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{F1D85D27-97EF-4703-B868-EC50B0FB96F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F30EB066-F187-42E1-96A9-AFC5A535737B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.CouponAPI", "Mango.Services.CouponAPI\Mango.Services.CouponAPI.csproj", "{834EC77F-9DCD-4750-82E8-8FD4C33A3354}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{2BF7456B-3F65-495B-96C8-FD21811EB5B6}"
+	ProjectSection(SolutionItems) = preProject
+		Coupon.cs = Coupon.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{2E48F0C5-34E9-47E1-BAFB-FD75D71E8C94}"
+	ProjectSection(SolutionItems) = preProject
+		CouponDTO.cs = CouponDTO.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{834EC77F-9DCD-4750-82E8-8FD4C33A3354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834EC77F-9DCD-4750-82E8-8FD4C33A3354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834EC77F-9DCD-4750-82E8-8FD4C33A3354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834EC77F-9DCD-4750-82E8-8FD4C33A3354}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{834EC77F-9DCD-4750-82E8-8FD4C33A3354} = {F30EB066-F187-42E1-96A9-AFC5A535737B}
+		{2BF7456B-3F65-495B-96C8-FD21811EB5B6} = {F30EB066-F187-42E1-96A9-AFC5A535737B}
+		{2E48F0C5-34E9-47E1-BAFB-FD75D71E8C94} = {2BF7456B-3F65-495B-96C8-FD21811EB5B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCFA5F04-CB60-4543-BB83-03591CDE9681}
+	EndGlobalSection
+EndGlobal
